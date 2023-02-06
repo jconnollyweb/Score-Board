@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  background-color: #1B244A;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.card {
+  height: auto;
+  width: auto;
+  background-color: black;
+}
+
+@font-face{
+  font-family: myFont;
+  src:url(alarmclock.ttf);
+}
+
+#home-el{
+  font-family: myFont;
+  color: red;
+  font-size: 100px;
+  margin: auto;
+  font-weight: bold;
+}
+
+#away-el{
+  font-family: myFont;
+  color: red;
+  font-size: 100px;
+  margin: auto;
+  font-weight: bold;
+}
+
+button {
+  font-family: myFont;
+  color: white;
+  background-color: #1B244A;
+  font-size: 30px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.new-game button {
+  margin-top: 40px;
+  margin-left: 37%;
+  font-size: 40px;
+  border: 3px solid white;
+}
